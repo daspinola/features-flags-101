@@ -1,0 +1,21 @@
+{
+  "name": "feature-flags-101",
+  "version": "1.0.0",
+  "description": "Setup of feature flags with unleash",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server-debug": "nodemon --inspect server.js",
+    "unleash-server": "node unleash-server.js"
+  },
+  "author": "daspinola",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "unleash-client": "^3.3.6",
+    "unleash-server": "^3.5.4"
+  }
+}
